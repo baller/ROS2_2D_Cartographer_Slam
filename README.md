@@ -1,7 +1,6 @@
-```markdown
 # Complete 2D Cartographer SLAM
 
-![Cartographer SLAM](./imgs/slam_output.png) 
+![Cartographer SLAM](./imgs/slam_output.png)
 
 ## 简介
 
