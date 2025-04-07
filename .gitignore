@@ -1,0 +1,11 @@
+output/
+log/
+*.pyc
+*.pyo
+data/
+build/
+*.pdf
+*.gv
+*.csv
+install/
+grid_map_output/
