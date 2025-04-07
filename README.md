@@ -4,14 +4,13 @@
 
 ## 简介
 
-本项目旨在实现一个完整的 2D Cartographer SLAM（同步定位与地图构建）系统，基于 ROS 2 框架。该系统能够通过激光雷达、编码器、IMU 数据生成环境地图，并实时定位机器人。
+本项目实现一个完整的 2D Cartographer SLAM（同步定位与地图构建）系统，基于 ROS 2 框架。该系统能够通过激光雷达、编码器、IMU 数据生成环境地图，并实时定位机器人。
 
 
 ## 依赖
 
 - ROS 2 Humble
-- colcon
-- 其他依赖项（如有，请列出）
+
 
 ## 安装
 
@@ -56,14 +55,7 @@ ros2 run nav2_map_server map_saver_cli -f <map_file_name>
 
 ## 贡献
 
-欢迎任何形式的贡献！请遵循以下步骤：
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的更改 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 提交 Pull Request
-
+欢迎任何形式的贡献！
 ## 许可证
 
 本项目采用 MIT 许可证，详细信息请查看 [LICENSE](LICENSE) 文件。
